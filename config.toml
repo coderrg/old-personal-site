@@ -1,0 +1,72 @@
+baseURL = "http://www.rhythmgarg.com"
+title = "Rhythm Garg"
+theme = "hugo-coder"
+languageCode = "en"
+defaultContentLanguage = "en"
+paginate = 20
+pygmentsStyle = "bw"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+enableEmoji = true
+
+[params]
+author = "Rhythm Garg"
+description = "Rhythm Garg's personal website"
+keywords = "blog,developer,personal,technology"
+info = ["Hey! It's nice to meet you :)"]
+avatarURL = "images/rhythm_headshot_cropped.png"
+dateFormat = "January 2, 2006"
+rtl = false
+colorScheme = "auto"
+hideColorSchemeToggle = false
+maxSeeAlsoItems = 5
+customCSS = []
+customSCSS = []
+customJS = []
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-2x fa-github"
+weight = 1
+url = "https://github.com/coderrg/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa fa-2x fa-linkedin"
+weight = 4
+url = "https://www.linkedin.com/in/rhythm-garg/"
+
+[[params.social]]
+name = "Twitter"
+icon = "fa fa-2x fa-twitter"
+weight = 3
+url = "https://twitter.com/rhythmrg/"
+
+[languages.en]
+languageName = ":uk:"
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+[[languages.en.menu.main]]
+name = "Blog"
+weight = 2
+url = "posts/"
+
+[[languages.en.menu.main]]
+name = "Projects"
+weight = 3
+url = "projects/"
+
+[[languages.en.menu.main]]
+name = "Contact me"
+weight = 5
+url = "contact/"
