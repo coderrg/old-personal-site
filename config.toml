@@ -10,10 +10,11 @@ pygmentsCodeFencesGuessSyntax = true
 enableEmoji = true
 
 [params]
-author = "Rhythm Garg"
+name = "Rhythm Garg"
+author = "Hey! It's nice to meet you."
 description = "Rhythm Garg's personal website"
 keywords = "blog,developer,personal,technology"
-info = ["Hey! It's nice to meet you :)"]
+info = ["My name is Rhythm, and I’m excited about building AI-powered products that solve ambitious problems."]
 avatarURL = "images/rhythm_headshot_cropped.png"
 dateFormat = "January 2, 2006"
 rtl = false
